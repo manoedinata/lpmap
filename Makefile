@@ -1,4 +1,4 @@
-CC ?= clang
+CC = clang
 CFLAGS = --target=aarch64-linux-gnu -O2 -Wall -ffreestanding -fno-stack-protector \
 	-fno-builtin -nostdlib -static -fuse-ld=lld
 
